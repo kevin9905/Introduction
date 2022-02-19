@@ -1,5 +1,5 @@
 import React from "react";
-import author from "../Capture.PNG";
+import author from "../images/AboutMe/Capture.PNG";
 const AboutMe = () => {
   return (
     <div id="about_me" className="container py-5">

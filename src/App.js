@@ -5,10 +5,10 @@ import Header from "./Components/Header";
 import AboutMe from "./Components/AboutMe";
 import Services from "./Components/Services";
 import Experience from "./Components/Experience";
-import Portfolio from "./Components/Portfolio";
 import Testimonials from "./Components/Testimonials";
 import Contacts from "./Components/Contacts";
 import Footer from "./Components/Footer";
+import PortfolioPage from "./Components/PortfolioPage";
 function App() {
   return (
     <>
@@ -17,8 +17,8 @@ function App() {
       <AboutMe />
       <Services />
       <Experience />
-      <Portfolio />
       {/* <Testimonials /> */}
+      <PortfolioPage />
       <Contacts />
       <Footer />
     </>

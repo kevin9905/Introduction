@@ -84,7 +84,7 @@ nav ul li {
 /************************Header*************/
 .header-wrapper {
   position: relative;
-  background: url(wallpaper.jpg) no-repeat;
+  background: url(./images/Header/wallpaper.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -283,7 +283,79 @@ nav ul li {
   }
 }
 /*********************Portfolio*****************************/
-.portfolio-wrapper {
+.portfolio {
+  background-color: var(--primary-light-grey);
+  padding: 3rem 0;
+}
+.portfolio h1 {
+  color: var(--primary-orange);
+  text-align: center;
+}
+#portfolio_card_container {
+  width: 50%;
+  padding: 10px;
+  border: none;
+  background-color: var(--primary-light-grey);
+}
+.portfolio_image {
+  width: 35rem;
+  height: 20rem;
+  border: 2px solid var(--primary-orange);
+  border-radius: 2%;
+  padding: 0.4rem 0.4rem;
+}
+.portfolio_image:hover {
+  cursor: pointer;
+  filter: brightness(50%);
+  transition: 0.3s ease-in-out;
+}
+.portfolio-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--primary-orange);
+  display: none;
+}
+.portfolio_image:hover + .portfolio-icon {
+  display: block;
+}
+.modal-header {
+  background-color: var(--primary-orange);
+}
+.modal-backdrop.show {
+  opacity: 0.1 !important;
+  transition: 0.2s;
+}
+
+#portfolio_modal_link {
+  padding: 0 0 1rem 1rem;
+}
+
+#portfolio_modal_link:link {
+  text-decoration: none;
+}
+.hyper-link {
+  cursor: pointer;
+  color: var(--primary-orange);
+}
+.hyper-link:hover {
+  cursor: pointer;
+  color: var(--primary-red);
+}
+@media only screen and (max-width: 600px) {
+  #portfolio_card_container {
+    width: 100%;
+    padding: 0.5rem 2.5rem;
+    border: none;
+  }
+  .portfolio_image {
+    width: 100%;
+    border: 1px solid var(--primary-orange);
+    padding: 0.4rem 0.4rem;
+  }
+}
+/* .portfolio-wrapper {
   background: var(--primary-light-grey);
   padding: 3rem 0;
 }
@@ -372,6 +444,7 @@ nav ul li {
     width: 50%;
   }
 }
+*/
 /***************************Testi****************************/
 .testimonials {
   background-image: url(pic1.jpg);

@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
-import emailjs, { sendForm } from "emailjs-com";
+import emailjs from "emailjs-com";
 import { useForm } from "react-hook-form";
 const Contacts = () => {
-  const [successMessage, setSuccessMessage] = useState("");
-  const { register, handleSubmit, errors } = useForm();
+  const { handleSubmit } = useForm();
   const [status, setStatus] = useState("");
   const serviceID = "service_ID";
   const templateID = "template_ID";
