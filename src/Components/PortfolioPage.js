@@ -31,8 +31,10 @@ const PortfolioPage = () => {
           <p>
             <b> Github link: </b>
             <a
+              href={data.link}
+              target="_blank"
+              rel="noreferrer"
               className="hyper-link"
-              onClick={() => window.open(`${data.link}`)}
             >
               {data.link}
             </a>
@@ -40,8 +42,10 @@ const PortfolioPage = () => {
           <p>
             <b> Demo link: </b>
             <a
+              href={data.demo_link}
+              target="_blank"
+              rel="noreferrer"
               className="hyper-link"
-              onClick={() => window.open(`${data.demo_link}`)}
             >
               {data.demo_link}
             </a>
