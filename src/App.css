@@ -399,7 +399,7 @@ nav ul li {
   transition: 0.3s ease-in-out;
   cursor: pointer;
 }
-
+*/
 /*************Portfolio*************/
 .portfolio-image-popupbox {
   width: 50rem;
@@ -444,7 +444,7 @@ nav ul li {
     width: 50%;
   }
 }
-*/
+
 /***************************Testi****************************/
 .testimonials {
   background-image: url(pic1.jpg);
