@@ -8,7 +8,7 @@ const PortfolioData = [
     link: "https://github.com/kevin9905/BookREP_CRM",
     demo_link: "https://book-rep-crm.herokuapp.com/BookRepCRM.php",
     title: "Book Rep CRM",
-    summary: "Hello World",
+    summary: "",
     technology: "React",
   },
   {
@@ -16,7 +16,7 @@ const PortfolioData = [
     link: "https://github.com/kevin9905/Technical_case_study",
     demo_link: "https://technical-xkcd-comic.herokuapp.com/",
     title: "XKCD Comic",
-    summary: "Hello World",
+    summary: "",
     technology: "React",
   },
   {
@@ -24,7 +24,7 @@ const PortfolioData = [
     link: "https://github.com/kevin9905/color_changing",
     demo_link: "https://my-color-picker.herokuapp.com/",
     title: "Color Picker",
-    summary: "Hello World",
+    summary: "",
     technology: "React",
   },
   {
@@ -32,7 +32,7 @@ const PortfolioData = [
     link: "https://github.com/kevin9905/Student_Information",
     demo_link: "https://student-information-app.herokuapp.com/",
     title: "Comic",
-    summary: "Student information",
+    summary: "",
     technology: "React",
   },
 ];
